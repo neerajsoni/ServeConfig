@@ -1,4 +1,17 @@
-{
-    "name": "neeraj",
-    "call": "98280"
-}
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.tier1crm.t1cbnow",
+            "sha256_cert_fingerprints": ["DD:65:E3:58:00:29:8A:3E:FB:56:E5:86:06:B3:85:E9:AA:44:7F:8F:CA:7B:9D:B4:B7:E5:05:EE:CA:E0:64:40"]
+        }
+    },
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.tier1crm.AceMobile",
+            "sha256_cert_fingerprints": ["74:4D:0A:A4:87:87:CB:1E:3B:7F:AD:21:4E:11:9E:5C:44:E6:51:A8:C8:3F:C6:57:69:8D:4B:0C:71:20:19:6A"]
+        }
+    }
+]

@@ -28,8 +28,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/config', config);
-app.use('/appleconfig', appleconfig);
-app.use('/androidconfig', androidconfig);
+app.use('/apple-app-site-association', appleconfig);
+app.use('/.well-known/assetlinks.json', androidconfig);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -4,7 +4,7 @@ const BaseConfig = require('./baseconfig.js');
 
 router.get('/', function(req, res, next) {
   var config = new BaseConfig();
-  res.json(config.getConfig('test'));    
+  res.json(config.getConfig('apple'));    
 });
 
 module.exports = router;

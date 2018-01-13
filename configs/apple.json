@@ -1,4 +1,14 @@
 {
-    "name": "neeraj",
-    "call": "9828050051"
+    "applinks": {
+        "apps": [],
+        "details": [{
+                "appID": "EL4UTXE9VU.com.tier1crm.ACE-Mobile",
+                "paths": ["/Concerto"]
+            },
+            {
+                "appID": "EL4UTXE9VU.com.tier1crm.t1cbnow",
+                "paths": ["/Barclays"]
+            }
+        ]
+    }
 }
