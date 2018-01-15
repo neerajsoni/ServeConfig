@@ -1,17 +1,15 @@
 [{
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.tier1crm.t1cbnow",
-            "sha256_cert_fingerprints": ["DD:65:E3:58:00:29:8A:3E:FB:56:E5:86:06:B3:85:E9:AA:44:7F:8F:CA:7B:9D:B4:B7:E5:05:EE:CA:E0:64:40"]
-        }
-    },
-    {
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.tier1crm.AceMobile",
-            "sha256_cert_fingerprints": ["74:4D:0A:A4:87:87:CB:1E:3B:7F:AD:21:4E:11:9E:5C:44:E6:51:A8:C8:3F:C6:57:69:8D:4B:0C:71:20:19:6A"]
-        }
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+        "namespace": "android_app",
+        "package_name": "com.tier1crm.AceMobile",
+        "sha256_cert_fingerprints": ["E9:F0:6D:A6:B3:9D:38:B9:5B:DA:2B:89:6C:74:B9:1A:17:75:D1:AB:50:88:C2:15:9F:B2:48:B9:58:60:A7:B7"]
     }
-]
+}, {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+        "namespace": "android_app",
+        "package_name": "com.tier1crm.t1cbnow",
+        "sha256_cert_fingerprints": ["E9:F0:6D:A6:B3:9D:38:B9:5B:DA:2B:89:6C:74:B9:1A:17:75:D1:AB:50:88:C2:15:9F:B2:48:B9:58:60:A7:B7"]
+    }
+}]
